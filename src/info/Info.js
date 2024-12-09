@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/Website.png"
+import mock2 from "../img/zemen-128x128.png"
+import mock3 from "../img/Zemen-Insurance.png"
+import mock4 from "../img/10-profile-picture-ideas-to-make-you-stand-out.png"
+// import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -27,8 +27,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Mekbib",
+    lastName: "Zewde",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -41,40 +41,40 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Ethiopia'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Etech S.C"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "Mekbib35@gmail.com"
         }
     ],
     socials: [
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/mekbib_z/profilecard/?igsh=MWJsZTc2NjQ4ZzIzdA==",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Mek3588",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/mekbib-zewde-a4856225a/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/mekbib35?t=r5Jk-XQKzwzue_kXk6-7PA&s=09",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -82,11 +82,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I am a passionate Full Stack Developer with expertise in building scalable, dynamic, and user-friendly web applications. With a strong foundation in both front-end and back-end development, I thrive on transforming ideas into functional, high-performance solutions.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'tailwind'],
+            exposedTo: ['nodejs', 'express', 'mysql','postgress']
         }
     ,
     hobbies: [
@@ -111,34 +111,25 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Ethiopost CRM",
+            description: "A comprehensive CRM system designed for Ethiopost, focusing on customer management and workflow optimization.",
+            image: mock1 // Replace with the actual image path
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Zemen CRM",
+            description: "An advanced CRM platform tailored for Zemen, featuring lead management and sales tracking tools.",
+            image: mock2 // Replace with the actual image path
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "Zemen Insurance System",
+            description: "An insurance management system for Zemen, providing seamless policy management and customer service.",
+            image: mock3 // Replace with the actual image path
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "Portfolio",
+            description: "My personal portfolio showcasing various projects and technical skills.",
+            image: mock4 // Replace with the actual image path
         }
     ]
+    
 }
